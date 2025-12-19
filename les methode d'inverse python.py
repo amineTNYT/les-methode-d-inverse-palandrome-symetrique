@@ -14,6 +14,7 @@ print(palindrome("radar"))  # True
 print(palindrome("hello"))  # False
 #--------------------------------------------------------------------------
 
+
 def is_palindrome(ch):
     left = 0
     right = len(ch) - 1
@@ -84,6 +85,7 @@ def inverser_nombre_texte(x):
         chx = ch[0] + chx          # chx ← ch[0] + chx (ajouter premier caractère au début)
         ch = ch[1:]                # Effacer(ch, 0, 1) - Supprimer premier caractère
     return (chx)                   # Retourner chx 
+
 
 
 
